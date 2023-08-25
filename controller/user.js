@@ -69,7 +69,7 @@ const login = (req, res) => {
           status: "success",
           msg: "user login sucessfully!!!!",
           token: token,
-          name:data.name,
+          name: data.name,
         });
       } else {
         res.send({
@@ -81,10 +81,11 @@ const login = (req, res) => {
   });
   if (!user) {
     res.send({
-      status:"failure",
+      status: "failure",
       msg: "user not registered, please registered before login or invalid mail id or password",
     });
   }
 };
+
 
 module.exports = { login, register };
