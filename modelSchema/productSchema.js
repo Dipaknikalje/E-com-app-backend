@@ -17,7 +17,7 @@ const productSchema = new mongoose.Schema({
     type: String,
   },
   price: {
-    type: String,
+    type: Number,
   },
   oPrice: {
     type: String,
@@ -26,7 +26,7 @@ const productSchema = new mongoose.Schema({
     type: String,
   },
   quantity: {
-    type: String,
+    type: Number,
   },
 });
 const product = mongoose.model("product", productSchema);

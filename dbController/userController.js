@@ -2,9 +2,10 @@ const user = require("../modelSchema/userSchema");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const saltRound = process.env.SALTROUND;
+
 const registerUser = async (req, res) => {
   const regData = req.body;
-  const { name, number, email, password } = regData;
+  const { name, number, email, password, userId } = regData;
   const userData = await user.findOne({ email: email });
 
   if (userData) {
@@ -30,6 +31,8 @@ const registerUser = async (req, res) => {
       name: name,
       number: number,
       email: email,
+      userId: result._id,
+      result: result,
     });
   }
 };
@@ -39,7 +42,7 @@ const loginUser = async (req, res) => {
   const { email, password } = logData;
   const userData = await user.findOne({ email: email });
   if (userData) {
-    const hashedPassword=userData.password
+    const hashedPassword = userData.password;
     const salt = bcrypt.genSaltSync(saltRound);
     const validate = bcrypt.compareSync(password, hashedPassword);
     const token = jwt.sign({ email: email }, process.env.JWT_SECRET_KEY, {
