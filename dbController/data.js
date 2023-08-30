@@ -86,21 +86,9 @@ const data = [
     quantity: 100,
     subcat: "apple",
   },
+
   {
     ids: 8,
-    name: "Apple Watch Series 7",
-    category: "accessories",
-    ratting:
-      "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
-    image:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKUQ3_VW_34FR+watch-45-alum-midnight-nc-7s_VW_34FR_WF_CO?wid=750&hei=712&trim=1,0&fmt=p-jpg&qlt=95&.v=1632171067000,1631661671000",
-    price: 11000,
-    oPrice: "₹12,000",
-    quantity: 100,
-    subcat: "apple",
-  },
-  {
-    ids: 9,
     name: "Apple Watch Series 3",
     category: "accessories",
     ratting:
@@ -113,7 +101,7 @@ const data = [
     subcat: "apple",
   },
   {
-    ids: 10,
+    ids: 9,
     name: "Apple Watch Series 2",
     category: "accessories",
     ratting:
@@ -126,7 +114,7 @@ const data = [
     subcat: "apple",
   },
   {
-    ids: 11,
+    ids: 10,
     name: "Apple AirPods Max",
     category: "accessories",
     ratting:
@@ -139,7 +127,7 @@ const data = [
     subcat: "apple",
   },
   {
-    ids: 12,
+    ids: 11,
     name: "Apple AirPods ",
     ratting:
       "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
@@ -151,7 +139,7 @@ const data = [
     subcat: "apple",
   },
   {
-    ids: 13,
+    ids: 12,
     name: "boAt Rockers 255 CSK",
     ratting:
       "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
@@ -162,7 +150,7 @@ const data = [
     subcat: "boat",
   },
   {
-    ids: 14,
+    ids: 13,
     name: "boAt Rockers 450 Iron Man",
     category: "accessories",
     ratting:
@@ -173,21 +161,9 @@ const data = [
     quantity: 100,
     subcat: "boat",
   },
+
   {
-    ids: 15,
-    name: "boAt Rockers 450 Black Panther",
-    category: "accessories",
-    ratting:
-      "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
-    image:
-      "https://infiswap.com/wp-content/uploads/2022/04/boAt-Rockerz-450-Black-panther-1.jpg",
-    price: 1500,
-    oPrice: "₹1,700",
-    quantity: 100,
-    subcat: "boat",
-  },
-  {
-    ids: 16,
+    ids: 14,
     name: "boAt Rockers 450 Pro",
     category: "accessories",
     ratting:
@@ -200,7 +176,7 @@ const data = [
     subcat: "boat",
   },
   {
-    ids: 17,
+    ids: 15,
     name: "boAt Wave Lite",
     category: "accessories",
     ratting:
@@ -212,7 +188,7 @@ const data = [
     subcat: "boat",
   },
   {
-    ids: 18,
+    ids: 16,
     name: "SanDisk 32GB 2.0",
     category: "accessories",
     ratting:
@@ -225,7 +201,7 @@ const data = [
     subcat: "scandisk",
   },
   {
-    ids: 19,
+    ids: 17,
     name: "SanDisk 32GB 3.0",
     category: "accessories",
     ratting:
@@ -237,7 +213,7 @@ const data = [
     subcat: "scandisk",
   },
   {
-    ids: 20,
+    ids: 18,
     name: "HP 32GB 3.0",
     category: "accessories",
     ratting:
@@ -249,7 +225,7 @@ const data = [
     subcat: "hp",
   },
   {
-    ids: 21,
+    ids: 19,
     name: "HP 34GB 3.0",
     category: "accessories",
     ratting:
@@ -260,21 +236,9 @@ const data = [
     quantity: 100,
     subcat: "hp",
   },
+
   {
-    ids: 22,
-    name: "Jebra Microsoft",
-    category: "accessories",
-    ratting:
-      "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
-    image:
-      "https://www.onedirect.co.uk/media/catalog/product/cache/2/image/600x/75fe832f739e7581346979d1fbb4a3c8/g/n/gnevol30dm-2.jpg",
-    price: 5500,
-    oPrice: "₹6,499",
-    quantity: 100,
-    subcat: "jebra",
-  },
-  {
-    ids: 23,
+    ids: 20,
     name: "Mi Powerbank 20000mAh",
     category: "accessories",
     ratting:
@@ -285,21 +249,9 @@ const data = [
     quantity: 100,
     subcat: "mi",
   },
+
   {
-    ids: 24,
-    name: "Sony 10000mAh Powerbank ",
-    category: "accessories",
-    ratting:
-      "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
-    image:
-      "https://www.brandedcorporategift.com/ecommerce/upload/images/edit/6121-2017-08-30.jpg",
-    price: 1300,
-    oPrice: "₹1,699",
-    quantity: 100,
-    subcat: "sony",
-  },
-  {
-    ids: 25,
+    ids: 21,
     name: "Ipad Air 5th Gen",
     category: "Ipad",
     ratting:
@@ -312,7 +264,7 @@ const data = [
     subcat: "air",
   },
   {
-    ids: 26,
+    ids: 22,
     name: "Ipad Air A14",
     category: "Ipad",
     ratting:
@@ -324,7 +276,7 @@ const data = [
     subcat: "air",
   },
   {
-    ids: 27,
+    ids: 23,
     name: "Ipad Air 2",
     category: "Ipad",
     ratting:
@@ -337,7 +289,7 @@ const data = [
     subcat: "air",
   },
   {
-    ids: 28,
+    ids: 24,
     name: "Ipad Air 3rd Gen",
     category: "Ipad",
     ratting:
@@ -349,7 +301,7 @@ const data = [
     subcat: "air",
   },
   {
-    ids: 29,
+    ids: 25,
     name: "Ipad 11 Pro",
     category: "Ipad",
     ratting:
@@ -362,7 +314,7 @@ const data = [
     subcat: "pro",
   },
   {
-    ids: 30,
+    ids: 26,
     name: "Ipad Pro 10",
     category: "Ipad",
     ratting:
@@ -375,7 +327,7 @@ const data = [
     subcat: "pro",
   },
   {
-    ids: 31,
+    ids: 27,
     name: "Ipad Pro M1",
     category: "Ipad",
     ratting:
@@ -388,7 +340,7 @@ const data = [
     subcat: "pro",
   },
   {
-    ids: 32,
+    ids: 28,
     name: "Ipad Pro 10.5 Inch.",
     category: "Ipad",
     ratting:
@@ -401,7 +353,7 @@ const data = [
     subcat: "pro",
   },
   {
-    ids: 33,
+    ids: 29,
     name: "Asus ROG Strix G17",
     ratting:
       "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
@@ -412,7 +364,7 @@ const data = [
     subcat: "asus",
   },
   {
-    ids: 34,
+    ids: 30,
     name: "Asus ROG Strix G15",
     category: "laptop",
     ratting:
@@ -425,7 +377,7 @@ const data = [
     subcat: "asus",
   },
   {
-    ids: 35,
+    ids: 31,
     name: "Asus TUF Gamming A15",
     category: "laptop",
     ratting:
@@ -437,7 +389,7 @@ const data = [
     subcat: "asus",
   },
   {
-    ids: 36,
+    ids: 32,
     name: "Asus TUF Gaming F15",
     category: "laptop",
     ratting:
@@ -450,7 +402,7 @@ const data = [
     subcat: "asus",
   },
   {
-    ids: 37,
+    ids: 33,
     name: "HP Pavilion 15 12th Gen",
     category: "laptop",
     ratting:
@@ -462,7 +414,7 @@ const data = [
     subcat: "hplaptop",
   },
   {
-    ids: 38,
+    ids: 34,
     name: "HP Pavilion 15 12th Gen",
     category: "laptop",
     ratting:
@@ -475,7 +427,7 @@ const data = [
     subcat: "hplaptop",
   },
   {
-    ids: 39,
+    ids: 35,
     name: "HP Pavilion Gamming",
     category: "laptop",
     ratting:
@@ -488,7 +440,7 @@ const data = [
     subcat: "hplaptop",
   },
   {
-    ids: 40,
+    ids: 36,
     name: "HP Pavilion x360",
     category: "laptop",
     ratting:
@@ -501,7 +453,7 @@ const data = [
     subcat: "hplaptop",
   },
   {
-    ids: 41,
+    ids: 37,
     name: "Lenevo Yoga C930",
     category: "laptop",
     ratting:
@@ -514,7 +466,7 @@ const data = [
     subcat: "lenove",
   },
   {
-    ids: 42,
+    ids: 38,
     name: "Lenevo ThinkPad X1",
     category: "laptop",
     ratting:
@@ -526,7 +478,7 @@ const data = [
     subcat: "lenove",
   },
   {
-    ids: 43,
+    ids: 39,
     name: "Dell Latitute 13",
     category: "laptop",
     ratting:
@@ -539,7 +491,7 @@ const data = [
     subcat: "dell",
   },
   {
-    ids: 44,
+    ids: 40,
     name: "Dell Inspiron 7620",
     category: "laptop",
     ratting:
@@ -551,7 +503,7 @@ const data = [
     subcat: "dell",
   },
   {
-    ids: 45,
+    ids: 41,
     name: "MacBook Air",
     category: "macbook",
     ratting:
@@ -564,7 +516,7 @@ const data = [
     subcat: "macbookair",
   },
   {
-    ids: 46,
+    ids: 42,
     name: "Apple MacBook Pro",
     category: "macbook",
     ratting:
@@ -576,7 +528,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 47,
+    ids: 43,
     name: "Apple MacBook 12",
     category: "macbook",
     ratting:
@@ -589,7 +541,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 48,
+    ids: 44,
     name: "Apple MacBook 11",
     category: "macbook",
     ratting:
@@ -602,7 +554,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 49,
+    ids: 45,
     name: "Apple MacBook Air 2020 ",
     category: "macbook",
     ratting:
@@ -615,7 +567,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 50,
+    ids: 46,
     name: "Apple MacBook Pro 2019",
     category: "macbook",
     ratting:
@@ -627,7 +579,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 51,
+    ids: 47,
     name: "Apple MacBook Air Gold",
     category: "macbook",
     ratting:
@@ -640,7 +592,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 52,
+    ids: 48,
     name: "Apple MacBook Air M2",
     category: "macbook",
     ratting:
@@ -653,7 +605,7 @@ const data = [
     subcat: "applemacbook",
   },
   {
-    ids: 53,
+    ids: 49,
     name: "OnePlus 9",
     category: "Mobile",
     ratting:
@@ -665,7 +617,7 @@ const data = [
     subcat: "oneplus",
   },
   {
-    ids: 54,
+    ids: 50,
     name: "OnePlus 10 Pro",
     category: "Mobile",
     ratting:
@@ -677,7 +629,7 @@ const data = [
     subcat: "oneplus",
   },
   {
-    ids: 55,
+    ids: 51,
     name: "OnePlus 10 R",
     category: "Mobile",
     ratting:
@@ -689,7 +641,7 @@ const data = [
     subcat: "oneplus",
   },
   {
-    ids: 56,
+    ids: 52,
     name: "OnePlus Nord 2T",
     category: "Mobile",
     ratting:
@@ -701,7 +653,7 @@ const data = [
     subcat: "oneplus",
   },
   {
-    ids: 57,
+    ids: 53,
     name: "OnePlus Nord CE 2",
     category: "Mobile",
     ratting:
@@ -713,7 +665,7 @@ const data = [
     subcat: "oneplus",
   },
   {
-    ids: 58,
+    ids: 54,
     name: "Redmi Note 9 Pro",
     category: "Mobile",
     ratting:
@@ -726,7 +678,7 @@ const data = [
     subcat: "redmi",
   },
   {
-    ids: 59,
+    ids: 55,
     name: "Redmi Note 10 Lite",
     category: "Mobile",
     ratting:
@@ -739,7 +691,7 @@ const data = [
     subcat: "redmi",
   },
   {
-    ids: 60,
+    ids: 56,
     name: "Redmi Note 10 Prime",
     category: "Mobile",
     ratting:
@@ -751,7 +703,7 @@ const data = [
     subcat: "redmi",
   },
   {
-    ids: 61,
+    ids: 57,
     name: "Redmi Note 11 Pro",
     category: "Mobile",
     ratting:
@@ -763,7 +715,7 @@ const data = [
     subcat: "redmi",
   },
   {
-    ids: 62,
+    ids: 58,
     name: "Redmi Note 11",
     category: "Mobile",
     ratting:
@@ -775,7 +727,7 @@ const data = [
     subcat: "redmi",
   },
   {
-    ids: 63,
+    ids: 59,
     name: "Samsung Galaxy A13 ",
     category: "Mobile",
     ratting:
@@ -787,7 +739,7 @@ const data = [
     subcat: "samsung",
   },
   {
-    ids: 64,
+    ids: 60,
     name: "Samsung Galaxy S20",
     category: "Mobile",
     ratting:
@@ -799,7 +751,7 @@ const data = [
     subcat: "samsung",
   },
   {
-    ids: 65,
+    ids: 61,
     name: "Asus Zenfone 8",
     category: "Mobile",
     ratting:
@@ -812,7 +764,7 @@ const data = [
     subcat: "asusmobile",
   },
   {
-    ids: 66,
+    ids: 62,
     name: "Asus Zenfone 7",
     category: "Mobile",
     ratting:
@@ -825,7 +777,7 @@ const data = [
     subcat: "asusmobile",
   },
   {
-    ids: 67,
+    ids: 63,
     name: "Google Pixel 4 XL",
     category: "Mobile",
     ratting:
@@ -837,7 +789,7 @@ const data = [
     subcat: "pixel",
   },
   {
-    ids: 68,
+    ids: 64,
     name: "Google Pixel 5",
     category: "Mobile",
     ratting:
